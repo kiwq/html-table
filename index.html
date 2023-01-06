@@ -5,10 +5,90 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Invoice</title>
 </head>
 
 <body>
+
+  <table border="1" cellcpacing="0" cellpadding="10">
+    <thead>
+      <tr>
+        <td colspan="2">Invoice</td>
+        <td rowspan="2" colspan="3">LOGO</td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Buisness name</strong> <br />
+          Street adress <br />
+          City, State, Zip
+        </td>
+        <td>
+          <a href="tel:+380983261115">+380983261115</a> <br />
+          <a href="mailto:andrewkorkishko@gmail.com">andrewkorkishko@gmail.com</a> <br />
+          <a href="andrewkorkishko.com">andrewkorkishko.com</a> <br />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>Bill to</strong> <br />
+          Street adress <br />
+          City, State, Zip
+        </td>
+        <td>
+          <strong>Ship to</strong> <br />
+          Street adress <br />
+          City, State, Zip
+        </td>
+        <td colspan="3">
+          <strong>Invoice details</strong> <br />
+          Invoice #12345 <br />
+          Invoice date 13/12/00
+        </td>
+      </tr>
+      <tr>
+        <th>Product/Service</th>
+        <th>Decription</th>
+        <th>Qty/hrs</th>
+        <th>Rate</th>
+        <th>Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Service</td>
+        <td>Description for Service</td>
+        <td>20</td>
+        <td>100</td>
+        <td>200</td>
+      </tr>
+      <tr>
+        <td>Product</td>
+        <td>Description for Product</td>
+        <td>50</td>
+        <td>500</td>
+        <td>50</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2" rowspan="4">Info</td>
+        <td colspan="2">Subtotal</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td colspan="2">Tax</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td colspan="2">Shipping</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td colspan="2">Total</td>
+        <td>0</td>
+      </tr>
+    </tfoot>
+  </table>
 
 </body>
 
